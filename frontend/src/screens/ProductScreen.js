@@ -9,7 +9,7 @@ import { listProductDetails } from "../actions/productActions";
 import { useNavigate } from 'react-router';
 
 const ProductScreen = () => {
-  const [qty, setQty] = useState(0);
+  const [qty, setQty] = useState(1);
 
   const { id } = useParams();
   const navigate = useNavigate();
